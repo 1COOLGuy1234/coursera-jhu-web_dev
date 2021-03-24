@@ -1,0 +1,87 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  .container {
+    border: 2px solid black;
+    background-color: grey;
+    /* width: 90%; */
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+  }
+
+  .subtitle{
+    position: absolute;
+    width: 100px;
+    margin-top: 0px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+    top: -2px;
+    right: -2px; 
+    /* 把元素放在最右边，从右边开始移动 */
+  }
+  #chicken{
+    background-color: palevioletred;
+  }
+
+  #beef{
+    background-color: #C14543
+  }
+
+  #sushi{
+    background-color: #E5D198;
+  }
+
+  .content{
+      text-align: left;
+      margin-top: 30px;
+      padding:3px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+
+  .float{
+      float: left;
+      width: 100%;
+  }
+  
+  /********** Desktop devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Tablet devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+      .col-md-4 {
+        width: 33.33%;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-12 {
+        /* width: 105.5%; */
+        width: 100%
+      }
+  }
