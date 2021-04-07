@@ -1,0 +1,92 @@
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+color: #951C49;
+text-align: center;
+}
+#nav-list a:hover {
+background: #E7E7E7;
+}
+#nav-list a span {
+font-size: 1.8em;
+}
+
+.navbar-default .navbar-brand {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #000;
+    font-weight: 800;
+}
+
+#header-nav {
+    background-color: rgba(7, 7, 7, 0.2);
+    border-radius: 0;
+    border: 0;
+}
+
+#menu-title {
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+
+li a {
+    background-color: white;
+    height: 44px;
+}
+
+#nav-list{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.divider {
+    height: 2px;
+    /* margin: 9px 0; */
+    overflow: hidden;
+    background-color: black;
+}
+
+.sub-content{
+    border: 2px solid black;
+    background-color: grey;
+    height: 700px;
+    position: relative;
+    margin: 10px auto 30px auto;
+    padding: 0 10px 0 10px;
+}
+
+.sub-content h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#Chicken{
+    background-color: palevioletred;
+}
+
+#Beef{
+    background-color: #C14543;
+}
+
+#Sushi{
+    background-color: #E5D198;
+}
